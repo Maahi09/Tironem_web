@@ -1,0 +1,55 @@
+.header{
+    position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+  }
+  .nav-link {
+    color: #7b7b7b;
+   }
+   .active-link {
+    color: #aa19d5;
+   }
+   .nav-link:hover {
+    color: #aa19d5;
+   }
+   .btn-get-demo {
+    background: #aa19d5;
+    color: #ffff;
+   }
+   @media (min-width: 320px) and (max-width: 374px) {
+    .logo-tironem{
+      transform: translate(-90px, 0px);
+    }
+}
+@media (min-width: 375px) and (max-width: 424px){
+    .logo-tironem{
+        transform: translate(-115px, 0px);
+      }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+    .logo-tironem{
+        transform: translate(-150px, 0px);
+      }
+}
+@media (max-width: 767px){
+    .logo-tironem{
+        height: 25px;
+      }
+}
+@media (min-width: 768px) and (max-width: 1023px){
+    .logo-tironem{
+        transform: translate(-280px, 0px);
+      }
+}
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .navbar-img-container{
+        transform: translate(-20px,0px);
+       }
+}
+@media (min-width: 1400px){
+    .navbar-img-container{
+        transform: translate(-140px,0px);
+       }
+}
