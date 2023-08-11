@@ -353,7 +353,6 @@ font-size: 14px;
   transform: translate(0px, -380px);
 }
 }
-
 @media (min-width: 425px) and (max-width: 767px) {
   /* For Section-one */
   .img-grp {
@@ -401,8 +400,6 @@ font-size: 14px;
   .section-three-heading{
     font-size: 25px;
   }
-
-
 /* For Section-four */
 .container-four-img-grp {
   height: 410px;
