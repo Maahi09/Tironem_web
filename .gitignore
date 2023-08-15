@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Angular generated files
+/dist/
+/dist-server/
+/dist-test/
+/e2e/*.js
+/src/test.ts
+
+# Editor-specific files
+.idea/
+.vscode/
+
+# Compiled output
+*.js
+*.js.map
+*.d.ts
+
+# Log files
+*.log
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Build artifacts
+/dist/
+/dist-server/
+/dist-test/
